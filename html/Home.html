@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Foodiez</title>
+    <link rel="SHORTCUT ICON" href="/asset/logo.png" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap">
+    <link rel="stylesheet" href="/css/style3.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <img src="/asset/logo.png" ></a>
+            <p class="logo">Foodiez</p>
+            <ul>
+                
+                <li><a href="Home.html">Home</a></li>
+                <li><a href="recipes.html">Recipes</a></li>
+                <li><a href="Cooking-challenge.html">Cooking Challenge</a></li>
+                <li><a href="Blog.html">Blog</a></li>
+                <li><a href="contact.html">Contact us</a></li>
+                <li><a href="community.html">Community</a></li>
+                <li><button class="Sign-in"><a href="Signin.html">sign in</a></button></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="hero">
+        <h1>Discover the best food & recipes</h1>
+        <input type="text" id="search" placeholder="Search for recipes, drinks or dish">
+        <button type=submit class="search-button">search</button>
+    </section>
+    <section class="recipes">
+        <h2>Recipes</h2>
+        <div class="recipes-list">
+            <div class="recipes-card" onclick="openrecipes('idly.html')">
+                <img src="/asset/idly.avif" alt="idly">
+                <h3>IDLY</h3>
+                <p>Tamilnadu, Tiffin</p>
+            </div>
+            <div class="recipes-card" onclick="openrecipes('dosa.html')">
+                <img src="/asset/dosa.avif" alt="dosa">
+                <h3>Dosa</h3>
+                <p>Tamilnadu,Tiffin</p>
+            </div>
+            <div class="recipes-card" onclick="openrecipes('VegetableBiriyani.html')">
+                <img src="/asset/Veg Biriyani.avif" alt="Vegetable Biriyani">
+                <h3>Vegetable Biryani</h3>
+                <p>Tamilnadu, Tiffin</p>
+            </div>
+            <div class="recipes-card" onclick="openrecipes ('uttapam.html')">
+                <img src="/asset/uttapam.avif" alt="uttapam">
+                <h3>Uttapam</h3>
+                <p>Tamilnadu, Tiffin</p>
+            </div>
+            <div class="recipes-card" onclick="openrecipes('appam.html')">
+                <img src="/asset/appam.avif" alt="appam">
+                <h3>Appam</h3>
+                <p>Tamilnadu, Tiffin</p>
+            </div>
+            <div class="recipes-card" onclick="openrecipes('sambar.html')">
+                <img src="/asset/sambar.avif" alt="sambar">
+                <h3>Sambar</h3>
+                <p>Tamilnadu, Tiffin</p>
+            </div>
+            <div class="recipes-card" onclick="openrecipes('pesarattu.html')">
+                <img src="/asset/pesarattu.jpg" alt="pesarattu">
+                <h3>Pesarattu</h3>
+                <p>Tamilnadu, Tiffin</p>
+            </div>
+            <div class="recipes-card" onclick="openrecipes('rasam.html')">
+                <img src="/asset/rasam.avif" alt="rasam">
+                <h3>Rasam</h3>
+                <p>Tamilnadu, Tiffin</p>
+            </div>
+            <div class="recipes-card" onclick="openrecipes('Vegetable pulao.html')">
+                <img src="/Foodiez 6/asset/vegetable pulao.jpg" alt="Vegetable pulao">
+                <h3>Vegetable Pulao</h3>
+                <p>Tamilnadu, Tiffin</p>
+            </div>
+            <div class="recipes-card" onclick="openrecipes('avial.html')">
+                <img src="/asset/avial.avif" alt="avial">
+                <h3>Avial</h3>
+                <p>Tamilnadu, Tiffin</p>
+            </div>
+            <div class="recipes-card" onclick="openrecipes('poriyal.html')">
+                <img src="/asset/poriyal.avif" alt="poriyal">
+                <h3>Poriyal</h3>
+                <p>Tamilnadu, Tiffin</p>
+            </div>
+            <div class="recipes-card" onclick="openrecipes('kootu.html')">
+                <img src="/asset/poriyal.avif" alt="kootu">
+                <h3>Kootu</h3>
+                <p>Tamilnadu, Tiffin</p>
+            </div>
+            <div class="recipes-card" onclick="openrecipes('thoran.html')">
+                <img src="/asset/poriyal.avif" alt="thoran">
+                <h3>Thoran</h3>
+                <p>Tamilnadu, Tiffin</p>
+            </div>
+            <div class="recipes-card" onclick="openrecipes('chutneys.html')">
+                <img src="/asset/chutneys.avif" alt="chutneys">
+                <h3>Chutneys</h3>
+                <p>Tamilnadu, Tiffin</p>
+            </div>
+            <div class="recipes-card" onclick="openrecipes('sundal.html')">
+                <img src="/asset/sundal.avif" alt="sundal">
+                <h3>Sundal</h3>
+                <p>Tamilnadu, Tiffin</p>
+            </div>
+            <div class="recipes-card" onclick="openrecipes('murukku.html')">
+                <img src="/asset/murukku.avif" alt="murukku">
+                <h3>Murukku</h3>
+                <p>Tamilnadu, Tiffin</p>
+            </div>
+            <div class="recipes-card" onclick="openrecipes('payasam.html')">
+                <img src="/asset/payasam.avif" alt="payasam">
+                <h3>Payasam</h3>
+                <p>Tamilnadu, Tiffin</p>
+            </div>
+            <div class="recipes-card" onclick="openrecipes('laddu.html')">
+                <img src="/asset/laddu.avif" alt="laddu">
+                <h3>Laddu</h3>
+                <p>Tamilnadu, Tiffin</p>
+            </div>
+            <div class="recipes-card" onclick="openrecipes('buttermilk.html')">
+                <img src="/asset/buttermilk.jpg" alt="buttermilk">
+                <h3>Butter Milk</h3>
+                <p>Tamilnadu, Tiffin</p>
+            </div>
+            <div class="recipes-card" onclick="openrecipes('Tender coconut water.html')">
+                <img src="/asset/tender coconut water.avif" alt="Tender coconut water">
+                <h3>Tender Coconut WAter</h3>
+                <p>Tamilnadu, Tiffin</p>
+            </div>
+            <div class="recipes-card" onclick="openrecipes('Panakam.html')">
+                <img src="/asset/panakam.jpg" alt="Panakam">
+                <h3>Panakam</h3>
+                <p>Tamilnadu, Tiffin</p>
+            </div>
+            <div class="recipes-card" onclick="openrecipes('Badam milk.html')">
+                <img src="/asset/badammilk.avif" alt="Badam milk">
+                <h3>Badam Milk</h3>
+                <p>Tamilnadu, Tiffin</p>
+            </div>
+            <div class="recipes-card" onclick="openrecipes('idly.html')">
+                <img src="idly.avif" alt="idly">
+                <h3>IDLY</h3>
+                <p>Tamilnadu, Tiffin</p>
+            </div>
+            <div class="recipes-card" onclick="openrecipes('idly.html')">
+                <img src="idly.avif" alt="idly">
+                <h3>IDLY</h3>
+                <p>Tamilnadu, Tiffin</p>
+            </div>
+            <div class="recipes-card" onclick="openrecipes('idly.html')">
+                <img src="idly.avif" alt="idly">
+                <h3>IDLY</h3>
+                <p>Tamilnadu, Tiffin</p>
+            </div>
+            <div class="recipes-card" onclick="openrecipes('idly.html')">
+                <img src="idly.avif" alt="idly">
+                <h3>IDLY</h3>
+                <p>Tamilnadu, Tiffin</p>
+            </div>
+            <div class="recipes-card" onclick="openrecipes('idly.html')">
+                <img src="idly.avif" alt="idly">
+                <h3>IDLY</h3>
+                <p>Tamilnadu, Tiffin</p>
+            </div>
+            <div class="recipes-card" onclick="openrecipes('idly.html')">
+                <img src="idly.avif" alt="idly">
+                <h3>IDLY</h3>
+                <p>Tamilnadu, Tiffin</p>
+            </div>
+            <div class="recipes-card" onclick="openrecipes('idly.html')">
+                <img src="idly.avif" alt="idly">
+                <h3>IDLY</h3>
+                <p>Tamilnadu, Tiffin</p>
+            </div>
+
+            <!-- Add more restaurant cards as needed -->
+        </div>
+    </section>
+    <footer>
+        <p>&copy; 2024 Foodiez. All rights reserved
+            contact
+                
+        </p>
+    </footer>
+    <script src="/js/script3.js"></script>
+</body>
+</html>
