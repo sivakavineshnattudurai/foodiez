@@ -85,7 +85,7 @@ nav ul li img{
 }
 
 .hero input.focus{
-    outline: 0px;
+    outline: 50px;
 }
 
 .search-button {
