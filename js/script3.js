@@ -18,7 +18,7 @@ function openrecipes(page) {
     window.location.href = page;
 }
 
-document.getElementById('reviewForm')?.addEventListener('submit', function(event) {
+/document.getElementById('reviewForm')?.addEventListener('submit', function(event) {
     event.preventDefault();
 
     const name = document.getElementById('name').value;
