@@ -14,11 +14,12 @@ document.getElementById('search').addEventListener('input', function(event) {
     });
 });
 
+/* openrecipes*/
 function openrecipes(page) {
     window.location.href = page;
 }
 
-/*document.getElementById('reviewForm')?.addEventListener('submit', function(event) {
+document.getElementById('reviewForm')?.addEventListener('submit', function(event) {
     event.preventDefault();
 
     const name = document.getElementById('name').value;
@@ -43,4 +44,4 @@ document.getElementById('signinForm').addEventListener('submit', function(event)
         alert('Please use a Gmail address');
         event.preventDefault();
     }
-});/
+});

@@ -63,7 +63,7 @@ nav ul li img{
 }
 
 
-.hero {
+.sec {
     text-align: center;
     padding: 5rem 1rem;
     background: url('/foodiez 4/asset/hero3.png') no-repeat center center/cover;
@@ -71,12 +71,12 @@ nav ul li img{
     color: rgb(0, 0, 0);
 }
 
-.hero h1 {
+.sec h1 {
     font-size: 2.5rem;
     margin-bottom: 1rem;
 }
 
-.hero input {
+.sec input {
     padding: 0.5rem;
     width: 80%;
     max-width: 500px;
@@ -84,7 +84,7 @@ nav ul li img{
     border-radius: 0.25rem;
 }
 
-.hero input.focus{
+.sec input.focus{
     outline: 50px;
 }
 
